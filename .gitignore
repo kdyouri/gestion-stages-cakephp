@@ -19,48 +19,48 @@ Thumbs.db
 
 /lib/*
 !/lib/
-!/lib/empty
+!/lib/.gitkeep
 
 /plugins/*
 !/plugins/
-!/plugins/empty
+!/plugins/.gitkeep
 
 /vendors/*
 !/vendors/
-!/vendors/empty
+!/vendors/.gitkeep
 
 /app/tmp/*
 
 /app/tmp/cache/*
 !/app/tmp/cache/
-!/app/tmp/cache/empty
+!/app/tmp/cache/.gitkeep
 
 /app/tmp/cache/models/*
 !/app/tmp/cache/models/
-!/app/tmp/cache/models/empty
+!/app/tmp/cache/models/.gitkeep
 
 /app/tmp/cache/persistent/*
 !/app/tmp/cache/persistent/
-!/app/tmp/cache/persistent/empty
+!/app/tmp/cache/persistent/.gitkeep
 
 /app/tmp/cache/views/*
 !/app/tmp/cache/views/
-!/app/tmp/cache/views/empty
+!/app/tmp/cache/views/.gitkeep
 
 /app/tmp/logs/*
 !/app/tmp/logs/
-!/app/tmp/logs/empty
+!/app/tmp/logs/.gitkeep
 
 /app/tmp/sessions/*
 !/app/tmp/sessions/
-!/app/tmp/sessions/empty
+!/app/tmp/sessions/.gitkeep
 
 /app/webroot/files/*
 !/app/webroot/files/
-!/app/webroot/files/empty
+!/app/webroot/files/.gitkeep
 
 /app/webroot/upload/*
 !/app/webroot/upload/
-!/app/webroot/upload/empty
+!/app/webroot/upload/.gitkeep
 
 /.env
