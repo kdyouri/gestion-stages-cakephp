@@ -3,7 +3,7 @@
   "require": {
     "php": ">=7.3.0",
     "cakephp/cakephp": "2.10.*",
-    "cakephp/debug_kit": "2.*",
+    "cakephp/debug_kit": "^2.2",
     "cakedc/migrations": "^2.6",
     "vlucas/phpdotenv": "2.6.x",
     "josegonzalez/cakephp-upload": "2.x-dev"

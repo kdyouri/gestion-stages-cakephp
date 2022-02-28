@@ -59,8 +59,4 @@ Thumbs.db
 !/app/webroot/files/
 !/app/webroot/files/.gitkeep
 
-/app/webroot/upload/*
-!/app/webroot/upload/
-!/app/webroot/upload/.gitkeep
-
 /.env

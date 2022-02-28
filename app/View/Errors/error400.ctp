@@ -10,7 +10,7 @@
 	<strong><?php echo __d('cake', 'Error'); ?>: </strong>
 	<?php printf(
 		__d('cake', 'The requested address %s was not found on this server.'),
-		"<strong>'{$url}'</strong>"
+		"<strong>'{$base}'</strong>"
 	); ?>
 </p>
 <?php

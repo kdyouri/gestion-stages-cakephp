@@ -12,7 +12,7 @@
 <title><?php echo $pageTitle; ?></title>
 
 <?php if (!Configure::read('debug')): ?>
-<meta http-equiv="Refresh" content="<?php echo $pause; ?>;url=<?php echo $url; ?>"/>
+<meta http-equiv="Refresh" content="<?php echo $pause; ?>;url=<?php echo $base; ?>"/>
 <?php endif ?>
 <style><!--
 P { text-align:center; font:bold 1.1em sans-serif }
@@ -21,6 +21,6 @@ A:HOVER { text-decoration: underline; color:#44E }
 --></style>
 </head>
 <body>
-<p><a href="<?php echo $url; ?>"><?php echo $message; ?></a></p>
+<p><a href="<?php echo $base; ?>"><?php echo $message; ?></a></p>
 </body>
 </html>
