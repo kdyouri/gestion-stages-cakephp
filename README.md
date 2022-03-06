@@ -4,7 +4,9 @@ Gestion Stages
 Pré-requis
 ----------
 
-Voir les conditions de CakePHP 2.x : https://book.cakephp.org/2/fr/installation.html#conditions-requises
+* Voir les conditions de CakePHP 2.x : 
+
+https://book.cakephp.org/2/fr/installation.html#conditions-requises
 
 Installation
 ------------
@@ -13,13 +15,21 @@ Installation
 
 `git clone https://github.com/kdyouri/gestion-stages-cakephp.git`
 
-* Télécharger les composants requis : 
+* Installer les composants requis : 
 
 `composer install`
 
 Création des tables
 -------------------
 
-Aprés création de la base de données et configuration du fichier .env :
+* Créer la base de données
 
-`app\Console\cake Migrations.migration run all -app app`
+* Créer et configurer le fichier .env :
+
+`cp .env.sample .env`
+
+* Exécuter la migration :
+
+`cd app`
+
+`Console/cake Migrations.migration run all`
